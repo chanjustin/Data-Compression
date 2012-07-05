@@ -1,0 +1,10 @@
+This program uncompresses (or decodes) a message stored as 0s and 1s in any one
+of the .pre files stored in the "testdata" folder of this package.
+
+The program utilizes the prefix free code printed in the first 1 to 3 lines
+of each of the .pre files to build up a binary tree that the program can then
+use for decompression.
+
+This is a technique known as the huffman coding is detailed on the wikipedia page
+and the assignment page for this project.
+
